@@ -1,5 +1,5 @@
 import array
-arr=array.array('i',[1,2,3])
+arr=array.array('i',[1,2,3,4])
 #for i in range(0,3):
     #print(arr[i],end=" ")
 
@@ -20,7 +20,7 @@ arr=array.array('i',[1,2,3])
 #for i in range(0,3):
     #print(arr[i],end=" ")
 
-print(arr.index(2))
+print(arr.index(3))
 arr.reverse()
 for i in range(0,3):
     print(arr[i],end=" ")
