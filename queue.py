@@ -1,3 +1,4 @@
+# uing List
 '''
 queue=[]
 queue.append('a')
@@ -11,6 +12,8 @@ queue.pop(0)
 print(queue)
 '''
 
+
+# using collection deque
 '''
 from _collections import deque
 x=deque()
